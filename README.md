@@ -33,7 +33,8 @@ Sans root, il reste un launcher complet, avec les outils qui n'en ont pas besoin
 | 🖥️ | **SSH** : terminal, fichiers distants, serveurs enregistrés (mots de passe chiffrés dans le Keystore Android). | non |
 | 🎵 | **Sonic** : lecteur audio avec égaliseur et listes de lecture. | non |
 | 📰 | **Actualités**, **Labo JSON**, **Private Node** (suivi de ton propre serveur), **Telemetry** (widgets), **Notifications**, **journaux** et **diagnostic** de l'appareil. | non |
-| 📖 | **Guide** : une encyclopédie intégrée de 74 fiches (gestes, modules, transparence totale). | non |
+| ⚙️ | **Réglages** : tous les réglages d'Android à plat, recherche directe, favoris, et un petit tableau de bord (batterie, température, mémoire, réseau, IP, état du DNS et du pare-feu). | oui |
+| 📖 | **Guide** : une encyclopédie intégrée de 75 fiches (gestes, modules, transparence totale). | non |
 
 <div align="center">
 <img src="captures/05-governor.jpg" width="190"> <img src="captures/06-battery-root.jpg" width="190"> <img src="captures/07-dex-lab.jpg" width="190"> <img src="captures/08-guide.jpg" width="190">
@@ -44,7 +45,7 @@ Sans root, il reste un launcher complet, avec les outils qui n'en ont pas besoin
 Dante OS fait le contraire de ce qu'on voit d'habitude : il explique ce qu'il fait.
 
 - **Aucun traqueur, aucune statistique.** Rien n'est envoyé « pour améliorer le service ».
-- **Tes données restent sur le téléphone.** Dante n'appelle que ce dont il a besoin pour ce que *tu* lui demandes : les listes du filtre DNS, tes flux d'actualités, tes propres serveurs.
+- **Tes données restent sur le téléphone.** Dante n'appelle que ce dont il a besoin pour ce que *tu* lui demandes : les listes du filtre DNS, tes flux d'actualités, tes propres serveurs, et ton adresse IP publique seulement si tu touches « Afficher » dans Réglages.
 - **Mots de passe chiffrés** dans le Keystore Android (AES-GCM).
 - **Le root, pour voir et décider.** Chaque action sensible demande confirmation et se défait.
 - Le Guide intégré liste, fiche par fiche, **ce que l'app lit, modifie et envoie**.
@@ -106,14 +107,15 @@ Without root it stays a complete launcher, with the tools that don't need it. No
 | 🖥️ | **SSH**: terminal, remote files, saved servers (passwords encrypted in the Android Keystore). | no |
 | 🎵 | **Sonic**: audio player with equalizer and playlists. | no |
 | 📰 | **News**, **JSON Lab**, **Private Node** (watch your own server), **Telemetry** (widgets), **Notifications**, device **logs** and **diagnostics**. | no |
-| 📖 | **Guide**: a built-in encyclopedia of 74 pages (gestures, modules, total transparency). | no |
+| ⚙️ | **Settings**: every Android setting flat, direct search, favorites, and a small dashboard (battery, temperature, memory, network, IP, DNS and firewall state). | yes |
+| 📖 | **Guide**: a built-in encyclopedia of 75 pages (gestures, modules, total transparency). | no |
 
 ### Transparency
 
 Dante OS does the opposite of the usual: it explains what it does.
 
 - **No tracker, no statistics.** Nothing is sent "to improve the service".
-- **Your data stays on the phone.** Dante only contacts what it needs for what *you* ask: DNS filter lists, your news feeds, your own servers.
+- **Your data stays on the phone.** Dante only contacts what it needs for what *you* ask: DNS filter lists, your news feeds, your own servers, and your public IP address only if you tap "Show" in Settings.
 - **Encrypted passwords** in the Android Keystore (AES-GCM).
 - **Root to see and decide.** Every sensitive action asks for confirmation and can be undone.
 - The built-in Guide lists, page by page, **what the app reads, changes and sends**.
