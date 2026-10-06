@@ -49,6 +49,10 @@ Sans root, il reste un launcher complet, avec les outils qui n'en ont pas besoin
 - **Les icônes, une par une** : chaque app ou module peut prendre une icône d'un **pack d'icônes** installé (format Nova / ADW) ou **une image de ton téléphone** (PNG, JPEG…). Tu peux revenir à l'icône d'origine à tout moment.
 - **Le bureau** : pages, dossiers, widgets Android, tiroir d'applications, fond d'écran.
 
+<div align="center">
+<img src="captures/12-dock-gauche.jpg" width="170"> <img src="captures/13-dock-droite.jpg" width="170"> <img src="captures/14-dock-haut.jpg" width="170"> <img src="captures/15-dock-bas.jpg" width="170">
+</div>
+
 ### Transparence
 
 Dante OS fait le contraire de ce qu'on voit d'habitude : il explique ce qu'il fait.
@@ -141,6 +145,10 @@ Without root it stays a complete launcher, with the tools that don't need it. No
 - **The dock, your way**: put the apps *and* the modules you want in it, with zoom and notification badges. A column on the left or right, a row at the top or bottom.
 - **Icons, one by one**: every app or module can take an icon from an installed **icon pack** (Nova / ADW format) or **an image from your phone** (PNG, JPEG…). You can go back to the original icon at any time.
 - **The desktop**: pages, folders, Android widgets, app drawer, wallpaper.
+
+<div align="center">
+<img src="captures/12-dock-gauche.jpg" width="170"> <img src="captures/13-dock-droite.jpg" width="170"> <img src="captures/14-dock-haut.jpg" width="170"> <img src="captures/15-dock-bas.jpg" width="170">
+</div>
 
 ### Transparency
 
