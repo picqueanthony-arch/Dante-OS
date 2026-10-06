@@ -32,10 +32,11 @@ Sans root, il reste un launcher complet, avec les outils qui n'en ont pas besoin
 | 📁 | **Fichiers** : explorateur, SMB, FTP, SFTP, USB, coffre, corbeille. | non |
 | 🖥️ | **SSH** : terminal, fichiers distants, serveurs enregistrés (mots de passe chiffrés dans le Keystore Android). | non |
 | 🎵 | **Sonic** : lecteur audio avec égaliseur et listes de lecture. | non |
-| 📰 | **Actualités**, **Labo JSON**, **Private Node** (suivi de ton propre serveur), **Telemetry** (widgets), **Notifications**, **journaux** et **diagnostic** de l'appareil. | non |
+| 📰 | **Actualités**, **Labo JSON**, **Private Node** (suivi de ton propre serveur), **Telemetry** (widgets), **Notifications** et **diagnostic** de l'appareil. | non |
 | ⚙️ | **Réglages** : tous les réglages d'Android à plat, recherche directe, favoris, et un petit tableau de bord (batterie, température, mémoire, réseau, IP, état du DNS et du pare-feu). | oui |
 | 🗂️ | **Multitâche** : tes modules et tes apps récents en cartes, avec leurs miniatures. Remplace l'écran Récents d'Android si tu le souhaites (option). | option |
 | 📊 | **Barre Dante** : heure, notifications et état du téléphone par-dessus toutes les apps, glisser vers le bas pour ouvrir les panneaux (option). | oui |
+| 📜 | **Logs appareil** : un logcat intégré, avec recherche et filtres, pour comprendre un souci ou le signaler. | non |
 | 📖 | **Guide** : une encyclopédie intégrée de 75 fiches (gestes, modules, transparence totale). | non |
 
 <div align="center">
@@ -83,6 +84,15 @@ Au premier lancement, un accueil en 4 étapes fait le diagnostic du téléphone,
 - Testé sur **OnePlus 13** (Android 15, root), **Galaxy Note 9** (Android 10, root) et **Galaxy Tab A 10.1** (Android 11, sans root). Ailleurs, certaines fonctions peuvent différer : le diagnostic de l'accueil te le dit.
 - **Français et anglais** (réglable dans *À propos*).
 
+### Un logcat intégré
+
+*Logs appareil* est un **logcat maison**, lisible directement sur le téléphone, sans PC ni adb.
+
+- **DANTE** : l'activité des modules (pare-feu, filtre DNS, XRay, SSH…). **RAW** : le logcat brut de Dante OS lui-même.
+- **Recherche** dans les tags, les messages et les paquets ; filtres par gravité (I / W / E) et par source ; « critiques seulement ».
+- Le bruit des services bavards est coupé par défaut (**CLEAN**). Pause, copie, **export JSON** en un geste.
+- Rien n'en sort tant que tu ne le partages pas toi-même.
+
 ### À savoir
 
 - Fourni **« tel quel », sans garantie**. Tu es responsable de ce que tu actives : le root est puissant, une mauvaise manipulation peut perturber le téléphone.
@@ -90,7 +100,7 @@ Au premier lancement, un accueil en 4 étapes fait le diagnostic du téléphone,
 - Il ne contourne aucune protection pour débloquer des fonctions payantes.
 - Le nom « Dante OS » et son logo restent la propriété de l'auteur.
 
-Un bug, une omission ? Ouvre *Logs appareil* dans l'app, exporte le journal, et décris ce qui s'est passé (heure, module, ce que tu attendais) dans les [Issues](https://github.com/picqueanthony-arch/Dante-OS/issues).
+Un bug, une omission ? Ouvre *Logs appareil* (le logcat intégré), copie ou exporte le journal, et décris ce qui s'est passé (heure, module, ce que tu attendais) dans les [Issues](https://github.com/picqueanthony-arch/Dante-OS/issues).
 
 Si Dante OS te sert, tu peux soutenir le projet : [PayPal](https://www.paypal.me/dante14250). C'est facultatif.
 
@@ -115,10 +125,11 @@ Without root it stays a complete launcher, with the tools that don't need it. No
 | 📁 | **Files**: explorer, SMB, FTP, SFTP, USB, vault, trash. | no |
 | 🖥️ | **SSH**: terminal, remote files, saved servers (passwords encrypted in the Android Keystore). | no |
 | 🎵 | **Sonic**: audio player with equalizer and playlists. | no |
-| 📰 | **News**, **JSON Lab**, **Private Node** (watch your own server), **Telemetry** (widgets), **Notifications**, device **logs** and **diagnostics**. | no |
+| 📰 | **News**, **JSON Lab**, **Private Node** (watch your own server), **Telemetry** (widgets), **Notifications** and device **diagnostics**. | no |
 | ⚙️ | **Settings**: every Android setting flat, direct search, favorites, and a small dashboard (battery, temperature, memory, network, IP, DNS and firewall state). | yes |
 | 🗂️ | **Multitasking**: your recent modules and apps as cards, with thumbnails. Can replace Android's Recents screen (option). | option |
 | 📊 | **Dante bar**: clock, notifications and phone status over every app, swipe down to open the panels (option). | yes |
+| 📜 | **Device logs**: a built-in logcat, with search and filters, to understand a problem or report it. | no |
 | 📖 | **Guide**: a built-in encyclopedia of 75 pages (gestures, modules, total transparency). | no |
 
 ### Customization
@@ -162,6 +173,15 @@ On first launch a 4-step welcome checks your phone, lets you pick *Full mode (ro
 - Tested on **OnePlus 13** (Android 15, rooted), **Galaxy Note 9** (Android 10, rooted) and **Galaxy Tab A 10.1** (Android 11, not rooted). Elsewhere some features may differ: the welcome diagnostic tells you.
 - **French and English** (switch in *About*).
 
+### A built-in logcat
+
+*Device logs* is a **homemade logcat**, readable right on the phone, no PC or adb needed.
+
+- **DANTE**: what the modules are doing (firewall, DNS filter, XRay, SSH…). **RAW**: the raw logcat of Dante OS itself.
+- **Search** in tags, messages and packages; filters by severity (I / W / E) and by source; "critical only".
+- The chatter of noisy services is muted by default (**CLEAN**). Pause, copy, **JSON export** in one tap.
+- Nothing leaves the phone unless you share it yourself.
+
 ### Good to know
 
 - Provided **"as is", without warranty**. You are responsible for what you enable: root is powerful, a wrong move can disturb the phone.
@@ -169,6 +189,6 @@ On first launch a 4-step welcome checks your phone, lets you pick *Full mode (ro
 - It does not bypass protections to unlock paid features.
 - The name "Dante OS" and its logo remain the property of the author.
 
-A bug or an omission? Open *Device logs* in the app, export the log, and describe what happened (time, module, what you expected) in the [Issues](https://github.com/picqueanthony-arch/Dante-OS/issues).
+A bug or an omission? Open *Device logs* (the built-in logcat), copy or export the log, and describe what happened (time, module, what you expected) in the [Issues](https://github.com/picqueanthony-arch/Dante-OS/issues).
 
 If Dante OS is useful to you, you can support the project: [PayPal](https://www.paypal.me/dante14250). It's optional.
