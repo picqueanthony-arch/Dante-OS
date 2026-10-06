@@ -86,12 +86,16 @@ Au premier lancement, un accueil en 4 étapes fait le diagnostic du téléphone,
 
 ### Un logcat intégré
 
-*Logs appareil* est un **logcat maison**, lisible directement sur le téléphone, sans PC ni adb.
+*Logs appareil* est un **logcat maison**, comme la fenêtre Logcat d'Android Studio mais sur le téléphone (filtré sur Dante OS), sans PC ni adb.
 
 - **DANTE** : l'activité des modules (pare-feu, filtre DNS, XRay, SSH, actualités, démarrages et plantages). **RAW** : le logcat brut de Dante OS lui-même (Android ne laisse une app lire que ses propres lignes : les journaux des autres apps ne sont jamais lus).
 - **Recherche** dans les tags, les messages et les paquets ; filtres par gravité (I / W / E) et par source ; « critiques seulement ».
 - Le bruit des services bavards est coupé par défaut (**CLEAN**). Pause, copie, **export JSON** en un geste.
 - Les événements sont gardés sur le téléphone, même écran des logs fermé. Jamais de mot de passe, de clé ni de texte de notification. Rien n'en sort tant que tu ne le partages pas toi-même.
+
+<div align="center">
+<img src="captures/09-logs-dante.jpg" width="190"> <img src="captures/11-logs-xray.jpg" width="190"> <img src="captures/10-logs-raw.jpg" width="190">
+</div>
 
 ### À savoir
 
@@ -175,12 +179,16 @@ On first launch a 4-step welcome checks your phone, lets you pick *Full mode (ro
 
 ### A built-in logcat
 
-*Device logs* is a **homemade logcat**, readable right on the phone, no PC or adb needed.
+*Device logs* is a **homemade logcat**, like the Logcat window of Android Studio but on the phone (filtered on Dante OS), no PC or adb needed.
 
 - **DANTE**: what the modules are doing (firewall, DNS filter, XRay, SSH, news, starts and crashes). **RAW**: the raw logcat of Dante OS itself (Android only lets an app read its own lines: the logs of other apps are never read).
 - **Search** in tags, messages and packages; filters by severity (I / W / E) and by source; "critical only".
 - The chatter of noisy services is muted by default (**CLEAN**). Pause, copy, **JSON export** in one tap.
 - Events are kept on the phone, even with the logs screen closed. Never a password, a key or a notification text. Nothing leaves the phone unless you share it yourself.
+
+<div align="center">
+<img src="captures/09-logs-dante.jpg" width="190"> <img src="captures/11-logs-xray.jpg" width="190"> <img src="captures/10-logs-raw.jpg" width="190">
+</div>
 
 ### Good to know
 
