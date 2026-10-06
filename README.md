@@ -99,7 +99,7 @@ Au premier lancement, un accueil en 4 étapes fait le diagnostic du téléphone,
 
 ### À savoir
 
-- Fourni **« tel quel », sans garantie**. Tu es responsable de ce que tu actives : le root est puissant, une mauvaise manipulation peut perturber le téléphone.
+- Fourni **« tel quel », sans garantie**. Dante OS ne s'impose aucune limite : une mauvaise règle de pare-feu ou de DNS peut couper ton réseau, un mauvais réglage peut rendre le téléphone instable, voire l'empêcher de démarrer (bootloop) ou lui faire perdre des données. **Tu es responsable de ce que tu actives ; l'auteur ne peut être tenu responsable des dommages.** Sauvegarde avant, et sache comment restaurer ton téléphone (mode sans échec de Magisk, image boot d'origine).
 - Dante OS n'est pas un antivirus : ses audits informent, ils ne jugent pas.
 - Il ne contourne aucune protection pour débloquer des fonctions payantes.
 - Le nom « Dante OS » et son logo restent la propriété de l'auteur.
@@ -192,7 +192,7 @@ On first launch a 4-step welcome checks your phone, lets you pick *Full mode (ro
 
 ### Good to know
 
-- Provided **"as is", without warranty**. You are responsible for what you enable: root is powerful, a wrong move can disturb the phone.
+- Provided **"as is", without warranty**. Dante OS puts no limit on itself: a wrong firewall or DNS rule can cut your network, a wrong setting can make the phone unstable, even keep it from booting (bootloop) or lose data. **You are responsible for what you enable; the author cannot be held responsible for any damage.** Back up first, and know how to restore your phone (Magisk safe mode, stock boot image).
 - Dante OS is not an antivirus: its audits inform, they do not judge.
 - It does not bypass protections to unlock paid features.
 - The name "Dante OS" and its logo remain the property of the author.
