@@ -88,7 +88,7 @@ Au premier lancement, un accueil en 4 étapes fait le diagnostic du téléphone,
 
 *Logs appareil* est un **logcat maison**, lisible directement sur le téléphone, sans PC ni adb.
 
-- **DANTE** : l'activité des modules (pare-feu, filtre DNS, XRay, SSH…). **RAW** : le logcat brut de Dante OS lui-même.
+- **DANTE** : l'activité des modules (pare-feu, filtre DNS, alertes XRay, Governor…). **RAW** : le logcat brut de Dante OS lui-même.
 - **Recherche** dans les tags, les messages et les paquets ; filtres par gravité (I / W / E) et par source ; « critiques seulement ».
 - Le bruit des services bavards est coupé par défaut (**CLEAN**). Pause, copie, **export JSON** en un geste.
 - Rien n'en sort tant que tu ne le partages pas toi-même.
@@ -177,7 +177,7 @@ On first launch a 4-step welcome checks your phone, lets you pick *Full mode (ro
 
 *Device logs* is a **homemade logcat**, readable right on the phone, no PC or adb needed.
 
-- **DANTE**: what the modules are doing (firewall, DNS filter, XRay, SSH…). **RAW**: the raw logcat of Dante OS itself.
+- **DANTE**: what the modules are doing (firewall, DNS filter, XRay alerts, Governor…). **RAW**: the raw logcat of Dante OS itself.
 - **Search** in tags, messages and packages; filters by severity (I / W / E) and by source; "critical only".
 - The chatter of noisy services is muted by default (**CLEAN**). Pause, copy, **JSON export** in one tap.
 - Nothing leaves the phone unless you share it yourself.
