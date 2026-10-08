@@ -13,6 +13,14 @@
 
 ---
 
+## Nouveau dans la 3.0 / New in 3.0
+
+**Dante Trad** — des sous-titres traduits en direct sur n'importe quelle vidéo, entièrement sur le téléphone (Whisper + traducteur hors ligne, 18 langues, sans root). *Live translated subtitles over any video, fully on-device (Whisper + offline translator, 18 languages, no root).* → [Dante-Trad](https://github.com/picqueanthony-arch/Dante-Trad)
+
+**Extensions Firefox / Firefox extensions** — « Fullscreen for Dante OS » (vrai plein écran, garde le mode sombre de Dark Reader / real fullscreen, keeps Dark Reader's dark mode) et/and « Dante Trad for Dante OS » (lancer Dante Trad sans quitter la vidéo / start Dante Trad without leaving the video). Avec/With uBlock Origin : un YouTube sans pubs, en plein écran, sous-titré dans ta langue / an ad-free, fullscreen YouTube, subtitled in your language. → [Releases Dante-Trad](https://github.com/picqueanthony-arch/Dante-Trad/releases) · [addons.mozilla.org](https://addons.mozilla.org/firefox/addon/fullscreen-for-dante-os/) *(en attente de validation par Mozilla / waiting for Mozilla's review)*
+
+---
+
 ## Français
 
 Dante OS est un **launcher Android** (bureau en pages, dock, dossiers, widgets, tiroir d'apps) auquel s'ajoute, sur un téléphone **rooté**, une boîte à outils pour voir et décider ce que fait ton téléphone : qui parle sur le réseau, ce qui est bloqué, ce que consomme la batterie, comment tourne le processeur.
