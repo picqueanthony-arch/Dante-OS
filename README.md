@@ -74,7 +74,7 @@ Dante OS fait le contraire de ce qu'on voit d'habitude : il explique ce qu'il fa
 
 **Le code source n'est pas publié** (choix de l'auteur : l'outil touche au système). Ce que décrit le Guide se vérifie avec des outils Android ordinaires : liste des autorisations, trafic réseau, règles iptables.
 
-Dante OS a été conçu, testé et corrigé par une seule personne, pendant huit mois, **avec l'aide d'une IA pour écrire le code**.
+Dante OS a été conçu, testé et corrigé par une seule personne, pendant huit mois.
 
 ### Installer
 
@@ -171,7 +171,7 @@ Dante OS does the opposite of the usual: it explains what it does.
 
 **The source code is not published** (the author's choice: the tool touches the system). What the Guide describes can be checked with ordinary Android tools: permission list, network traffic, iptables rules.
 
-Dante OS was designed, tested and fixed by one person over eight months, **with the help of an AI to write the code**.
+Dante OS was designed, tested and fixed by one person over eight months.
 
 ### Install
 
